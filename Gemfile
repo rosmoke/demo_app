@@ -28,12 +28,13 @@ gem 'spring',        group: :development
 gem 'minitest'
 
 group :development do
-	gem 'rspec-rails', '2.13.0'	
+	gem 'rspec-rails'
 end
 
 group :test do
-	gem 'rspec', '2.13.0'
-	gem "spork",  '0.9.0'
+  gem 'rspec'
+  gem 'autotest'
+  gem 'spork'
 end
 
 # Use ActiveModel has_secure_password
